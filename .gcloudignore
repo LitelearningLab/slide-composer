@@ -1,0 +1,12 @@
+# .gcloudignore - files to exclude from Cloud Build
+node_modules/
+.git
+.gitignore
+.env
+.env.local
+README.md
+*.log
+.DS_Store
+build/
+.next/
+.nuxt/
