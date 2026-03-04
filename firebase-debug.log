@@ -1,0 +1,278 @@
+[debug] [2026-03-03T14:37:42.352Z] ----------------------------------------------------------------------
+[debug] [2026-03-03T14:37:42.361Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\my pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:list
+[debug] [2026-03-03T14:37:42.362Z] CLI Version:   15.8.0
+[debug] [2026-03-03T14:37:42.362Z] Platform:      win32
+[debug] [2026-03-03T14:37:42.362Z] Node Version:  v22.15.1
+[debug] [2026-03-03T14:37:42.362Z] Time:          Tue Mar 03 2026 20:07:42 GMT+0530 (India Standard Time)
+[debug] [2026-03-03T14:37:42.362Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-03T14:37:42.369Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-03T14:37:42.370Z] > authorizing via signed-in user (litelearninglab@gmail.com)
+[debug] [2026-03-03T14:37:42.372Z] Checked if tokens are valid: false, expires at: 1772547073450
+[debug] [2026-03-03T14:37:42.372Z] Checked if tokens are valid: false, expires at: 1772547073450
+[debug] [2026-03-03T14:37:42.373Z] > refreshing access token with scopes: []
+[debug] [2026-03-03T14:37:42.375Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-03-03T14:37:42.375Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-03-03T14:37:42.563Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-03-03T14:37:42.564Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-03-03T14:37:42.569Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2026-03-03T14:37:43.452Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-03-03T14:37:43.452Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] ┌───────────────────────┬────────────────────────────┬────────────────┬──────────────────────┐
+│ Project Display Name  │ Project ID                 │ Project Number │ Resource Location ID │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ Actual Result         │ actual-result              │ 879414107074   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ DJ Events             │ dj-events-20630            │ 674817700640   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ Hotel-Management-App  │ hotel-management-app-d25d5 │ 233565329277   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ Hotelier-Quiz         │ hotelier-quiz              │ 1020426847260  │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ Hotelier-Quiz-2       │ hotelier-quiz-2            │ 414449643935   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ Hotelier-Quiz-3       │ hotelier-quiz-3            │ 115010811204   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ housekeeping          │ housekeeping-f3b0b         │ 698671659721   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ housekeeping1         │ housekeeping1-e71cb        │ 602786274721   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ interview simulation2 │ interview-simulation2      │ 370021706671   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ interview simulations │ interview-simulations      │ 406338384472   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ ITPRO                 │ itpro-a2d46                │ 360014545224   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ LearnLi               │ learnli-1ebd7              │ 462234740929   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ Lite Learning Lab     │ lite-learning-lab          │ 620147953805   │ us-central           │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ litelearningLMS       │ litelearninglms            │ 1047847959274  │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ PMS application       │ pmsapplication-102004      │ 918211962804   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ Quiz                  │ quiz-90db1                 │ 292958444828   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ simulation-2          │ simulation-2-51a65         │ 578623058942   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ simulation3           │ simulation3-67b49          │ 471371228395   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ simulations           │ simulations-c6911          │ 6752223311     │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ slide-composer        │ slide-composer-c2d39       │ 562490877134   │ [Not specified]      │
+├───────────────────────┼────────────────────────────┼────────────────┼──────────────────────┤
+│ Travels               │ travels-21a93              │ 703528647862   │ [Not specified]      │
+└───────────────────────┴────────────────────────────┴────────────────┴──────────────────────┘
+[info] 
+[info] 21 project(s) total.
+[debug] [2026-03-03T14:38:24.099Z] ----------------------------------------------------------------------
+[debug] [2026-03-03T14:38:24.101Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\my pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting --project slide-composer-c2d39
+[debug] [2026-03-03T14:38:24.102Z] CLI Version:   15.8.0
+[debug] [2026-03-03T14:38:24.102Z] Platform:      win32
+[debug] [2026-03-03T14:38:24.102Z] Node Version:  v22.15.1
+[debug] [2026-03-03T14:38:24.102Z] Time:          Tue Mar 03 2026 20:08:24 GMT+0530 (India Standard Time)
+[debug] [2026-03-03T14:38:24.102Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-03T14:38:26.397Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-03T14:38:26.398Z] > authorizing via signed-in user (litelearninglab@gmail.com)
+[debug] [2026-03-03T14:38:26.398Z] [iam] checking project slide-composer-c2d39 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-03-03T14:38:26.399Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:26.400Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:26.401Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/slide-composer-c2d39:testIamPermissions [none]
+[debug] [2026-03-03T14:38:26.401Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/slide-composer-c2d39:testIamPermissions  x-goog-user-project=slide-composer-c2d39
+[debug] [2026-03-03T14:38:26.401Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/slide-composer-c2d39:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-03-03T14:38:27.791Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/slide-composer-c2d39:testIamPermissions 200
+[debug] [2026-03-03T14:38:27.791Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/slide-composer-c2d39:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-03-03T14:38:27.793Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:27.793Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:27.794Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/slide-composer-c2d39 [none]
+[debug] [2026-03-03T14:38:28.423Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/slide-composer-c2d39 200
+[debug] [2026-03-03T14:38:28.424Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/slide-composer-c2d39 {"projectId":"slide-composer-c2d39","projectNumber":"562490877134","displayName":"slide-composer","name":"projects/slide-composer-c2d39","resources":{"hostingSite":"slide-composer-c2d39"},"state":"ACTIVE","etag":"1_02badaad-702b-4421-ba1a-32f44262cf39"}
+[info] 
+[info] === Deploying to 'slide-composer-c2d39'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2026-03-03T14:38:28.436Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:28.437Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:28.437Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions [none]
+[debug] [2026-03-03T14:38:28.437Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2026-03-03T14:38:30.148Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions 200
+[debug] [2026-03-03T14:38:30.148Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions {"name":"projects/562490877134/sites/slide-composer-c2d39/versions/03e9c81bffd082ac","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[slide-composer-c2d39]: beginning deploy... 
+[info] i  hosting[slide-composer-c2d39]: found 4 files in dist/public 
+[debug] [2026-03-03T14:38:30.160Z] [hosting] uploading with 200 concurrency
+[debug] [2026-03-03T14:38:30.160Z] [hosting] hash cache [ZGlzdFxwdWJsaWM] not populated
+[debug] [2026-03-03T14:38:30.210Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:30.211Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:30.212Z] [hosting] hash cache [ZGlzdFxwdWJsaWM] stored for 4 files
+[debug] [2026-03-03T14:38:30.212Z] [hosting][hash queue][FINAL] {"max":48,"min":2,"avg":18.5,"active":0,"complete":4,"success":4,"errored":0,"retried":0,"total":4,"elapsed":51}
+[debug] [2026-03-03T14:38:30.212Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/562490877134/sites/slide-composer-c2d39/versions/03e9c81bffd082ac:populateFiles [none]
+[debug] [2026-03-03T14:38:30.213Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/562490877134/sites/slide-composer-c2d39/versions/03e9c81bffd082ac:populateFiles {"files":{"/favicon.png":"06e99247963e884ff56c17679f170ea5169a384998abe1c6a799d46169dd834e","/assets/index-C5UipvW8.css":"03ad5f3805e8af98f9fe82d02d7bd657892b148052078ebf9bf8fabd9765f598","/index.html":"b7ad99e3397cfc3756dffd69997455a04072d67e89b69ed08e5c195bbe38b020","/assets/index-R9pckIo3.js":"06aeaaf921cc7d88af4495968cd4017e2fd894cd09c91835c3a2e05fce74ec15"}}
+[debug] [2026-03-03T14:38:30.930Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/562490877134/sites/slide-composer-c2d39/versions/03e9c81bffd082ac:populateFiles 200
+[debug] [2026-03-03T14:38:30.930Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/562490877134/sites/slide-composer-c2d39/versions/03e9c81bffd082ac:populateFiles {"uploadRequiredHashes":["b7ad99e3397cfc3756dffd69997455a04072d67e89b69ed08e5c195bbe38b020"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/slide-composer-c2d39/versions/03e9c81bffd082ac/files"}
+[debug] [2026-03-03T14:38:30.931Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:30.932Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:30.932Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/slide-composer-c2d39/versions/03e9c81bffd082ac/files/b7ad99e3397cfc3756dffd69997455a04072d67e89b69ed08e5c195bbe38b020 [none]
+[debug] [2026-03-03T14:38:30.932Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/slide-composer-c2d39/versions/03e9c81bffd082ac/files/b7ad99e3397cfc3756dffd69997455a04072d67e89b69ed08e5c195bbe38b020 [stream]
+[debug] [2026-03-03T14:38:30.934Z] [hosting][populate queue][FINAL] {"max":722,"min":722,"avg":722,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":724}
+[debug] [2026-03-03T14:38:30.935Z] [hosting] uploads queued: 1
+[info] i  hosting: uploading new files [0/1] (0%) 
+[debug] [2026-03-03T14:38:32.386Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/slide-composer-c2d39/versions/03e9c81bffd082ac/files/b7ad99e3397cfc3756dffd69997455a04072d67e89b69ed08e5c195bbe38b020 200
+[debug] [2026-03-03T14:38:32.386Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/slide-composer-c2d39/versions/03e9c81bffd082ac/files/b7ad99e3397cfc3756dffd69997455a04072d67e89b69ed08e5c195bbe38b020 [stream]
+[debug] [2026-03-03T14:38:32.386Z] [hosting][upload queue][FINAL] {"max":1455,"min":1455,"avg":1455,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1455}
+[info] i  hosting: upload complete 
+[info] +  hosting[slide-composer-c2d39]: file upload complete 
+[debug] [2026-03-03T14:38:32.387Z] [hosting] deploy completed after 2237ms
+[debug] [2026-03-03T14:38:32.387Z] [
+  {
+    "config": {
+      "public": "dist/public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "slide-composer-c2d39"
+    },
+    "version": "projects/562490877134/sites/slide-composer-c2d39/versions/03e9c81bffd082ac"
+  }
+]
+[info] i  hosting[slide-composer-c2d39]: finalizing version... 
+[debug] [2026-03-03T14:38:32.388Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:32.389Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:32.389Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions/03e9c81bffd082ac updateMask=status%2Cconfig
+[debug] [2026-03-03T14:38:32.389Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions/03e9c81bffd082ac {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2026-03-03T14:38:33.295Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions/03e9c81bffd082ac 200
+[debug] [2026-03-03T14:38:33.295Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions/03e9c81bffd082ac {"name":"projects/562490877134/sites/slide-composer-c2d39/versions/03e9c81bffd082ac","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-03-03T14:38:30.524891Z","createUser":{"email":"litelearninglab@gmail.com"},"finalizeTime":"2026-03-03T14:38:34.346785Z","finalizeUser":{"email":"litelearninglab@gmail.com"}}
+[debug] [2026-03-03T14:38:33.295Z] [hosting] finalized version for slide-composer-c2d39:[object Object]
+[info] +  hosting[slide-composer-c2d39]: version finalized 
+[info] i  hosting[slide-composer-c2d39]: releasing new version... 
+[debug] [2026-03-03T14:38:33.296Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:33.296Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:38:33.296Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/channels/live/releases versionName=projects%2F562490877134%2Fsites%2Fslide-composer-c2d39%2Fversions%2F03e9c81bffd082ac
+[debug] [2026-03-03T14:38:33.296Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/channels/live/releases {}
+[debug] [2026-03-03T14:38:34.144Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/channels/live/releases 200
+[debug] [2026-03-03T14:38:34.144Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/channels/live/releases {"name":"projects/562490877134/sites/slide-composer-c2d39/channels/live/releases/1772548714463000","version":{"name":"projects/562490877134/sites/slide-composer-c2d39/versions/03e9c81bffd082ac","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-03-03T14:38:30.524891Z","createUser":{"email":"litelearninglab@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJDMU--zgc-iv2Dr7ik_gersOLoBByvf8J3jISAEDsy3i7uWN4"},"finalizeTime":"2026-03-03T14:38:34.346785Z","finalizeUser":{"email":"litelearninglab@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJDMU--zgc-iv2Dr7ik_gersOLoBByvf8J3jISAEDsy3i7uWN4"}},"type":"DEPLOY","releaseTime":"2026-03-03T14:38:34.463Z","releaseUser":{"email":"litelearninglab@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJDMU--zgc-iv2Dr7ik_gersOLoBByvf8J3jISAEDsy3i7uWN4"}}
+[debug] [2026-03-03T14:38:34.144Z] [hosting] release: {"name":"projects/562490877134/sites/slide-composer-c2d39/channels/live/releases/1772548714463000","version":{"name":"projects/562490877134/sites/slide-composer-c2d39/versions/03e9c81bffd082ac","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-03-03T14:38:30.524891Z","createUser":{"email":"litelearninglab@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJDMU--zgc-iv2Dr7ik_gersOLoBByvf8J3jISAEDsy3i7uWN4"},"finalizeTime":"2026-03-03T14:38:34.346785Z","finalizeUser":{"email":"litelearninglab@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJDMU--zgc-iv2Dr7ik_gersOLoBByvf8J3jISAEDsy3i7uWN4"}},"type":"DEPLOY","releaseTime":"2026-03-03T14:38:34.463Z","releaseUser":{"email":"litelearninglab@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJDMU--zgc-iv2Dr7ik_gersOLoBByvf8J3jISAEDsy3i7uWN4"}}
+[info] +  hosting[slide-composer-c2d39]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/slide-composer-c2d39/overview
+[info] Hosting URL: https://slide-composer-c2d39.web.app
+[debug] [2026-03-03T14:44:37.337Z] ----------------------------------------------------------------------
+[debug] [2026-03-03T14:44:37.341Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\my pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting --project slide-composer-c2d39
+[debug] [2026-03-03T14:44:37.341Z] CLI Version:   15.8.0
+[debug] [2026-03-03T14:44:37.342Z] Platform:      win32
+[debug] [2026-03-03T14:44:37.342Z] Node Version:  v22.15.1
+[debug] [2026-03-03T14:44:37.343Z] Time:          Tue Mar 03 2026 20:14:37 GMT+0530 (India Standard Time)
+[debug] [2026-03-03T14:44:37.343Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-03T14:44:39.064Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-03T14:44:39.064Z] > authorizing via signed-in user (litelearninglab@gmail.com)
+[debug] [2026-03-03T14:44:39.065Z] [iam] checking project slide-composer-c2d39 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-03-03T14:44:39.066Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:39.066Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:39.067Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/slide-composer-c2d39:testIamPermissions [none]
+[debug] [2026-03-03T14:44:39.067Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/slide-composer-c2d39:testIamPermissions  x-goog-user-project=slide-composer-c2d39
+[debug] [2026-03-03T14:44:39.067Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/slide-composer-c2d39:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-03-03T14:44:40.434Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/slide-composer-c2d39:testIamPermissions 200
+[debug] [2026-03-03T14:44:40.434Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/slide-composer-c2d39:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-03-03T14:44:40.435Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:40.435Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:40.435Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/slide-composer-c2d39 [none]
+[debug] [2026-03-03T14:44:40.821Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/slide-composer-c2d39 200
+[debug] [2026-03-03T14:44:40.822Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/slide-composer-c2d39 {"projectId":"slide-composer-c2d39","projectNumber":"562490877134","displayName":"slide-composer","name":"projects/slide-composer-c2d39","resources":{"hostingSite":"slide-composer-c2d39"},"state":"ACTIVE","etag":"1_02badaad-702b-4421-ba1a-32f44262cf39"}
+[info] 
+[info] === Deploying to 'slide-composer-c2d39'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2026-03-03T14:44:40.835Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:40.835Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:40.836Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions [none]
+[debug] [2026-03-03T14:44:40.836Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2026-03-03T14:44:42.702Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions 200
+[debug] [2026-03-03T14:44:42.703Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions {"name":"projects/562490877134/sites/slide-composer-c2d39/versions/fba82cf90af2946d","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[slide-composer-c2d39]: beginning deploy... 
+[info] i  hosting[slide-composer-c2d39]: found 4 files in dist/public 
+[debug] [2026-03-03T14:44:42.739Z] [hosting] uploading with 200 concurrency
+[debug] [2026-03-03T14:44:42.766Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:42.766Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:42.767Z] [hosting] hash cache [ZGlzdFxwdWJsaWM] stored for 4 files
+[debug] [2026-03-03T14:44:42.767Z] [hosting][hash queue][FINAL] {"max":24,"min":0,"avg":9.5,"active":0,"complete":4,"success":4,"errored":0,"retried":0,"total":4,"elapsed":27}
+[debug] [2026-03-03T14:44:42.768Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/562490877134/sites/slide-composer-c2d39/versions/fba82cf90af2946d:populateFiles [none]
+[debug] [2026-03-03T14:44:42.768Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/562490877134/sites/slide-composer-c2d39/versions/fba82cf90af2946d:populateFiles {"files":{"/favicon.png":"06e99247963e884ff56c17679f170ea5169a384998abe1c6a799d46169dd834e","/index.html":"b7ad99e3397cfc3756dffd69997455a04072d67e89b69ed08e5c195bbe38b020","/assets/index-C5UipvW8.css":"03ad5f3805e8af98f9fe82d02d7bd657892b148052078ebf9bf8fabd9765f598","/assets/index-R9pckIo3.js":"06aeaaf921cc7d88af4495968cd4017e2fd894cd09c91835c3a2e05fce74ec15"}}
+[debug] [2026-03-03T14:44:43.304Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/562490877134/sites/slide-composer-c2d39/versions/fba82cf90af2946d:populateFiles 200
+[debug] [2026-03-03T14:44:43.304Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/562490877134/sites/slide-composer-c2d39/versions/fba82cf90af2946d:populateFiles {"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/slide-composer-c2d39/versions/fba82cf90af2946d/files"}
+[debug] [2026-03-03T14:44:43.305Z] [hosting][populate queue][FINAL] {"max":539,"min":539,"avg":539,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":539}
+[debug] [2026-03-03T14:44:43.305Z] [hosting] uploads queued: 0
+[debug] [2026-03-03T14:44:43.306Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1772549083306}
+[info] i  hosting: upload complete 
+[info] +  hosting[slide-composer-c2d39]: file upload complete 
+[debug] [2026-03-03T14:44:43.307Z] [hosting] deploy completed after 596ms
+[debug] [2026-03-03T14:44:43.308Z] [
+  {
+    "config": {
+      "public": "dist/public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "/api/**",
+          "run": {
+            "serviceId": "slide-composer-api",
+            "region": "us-central1"
+          }
+        },
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "slide-composer-c2d39"
+    },
+    "version": "projects/562490877134/sites/slide-composer-c2d39/versions/fba82cf90af2946d"
+  }
+]
+[info] i  hosting[slide-composer-c2d39]: finalizing version... 
+[debug] [2026-03-03T14:44:43.311Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:43.312Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:43.312Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v1/projects/slide-composer-c2d39/locations/-/functions [none]
+[debug] [2026-03-03T14:44:44.149Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v1/projects/slide-composer-c2d39/locations/-/functions 200
+[debug] [2026-03-03T14:44:44.149Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v1/projects/slide-composer-c2d39/locations/-/functions {}
+[debug] [2026-03-03T14:44:44.149Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:44.149Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:44.150Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/slide-composer-c2d39/locations/-/functions filter=environment%3D%22GEN_2%22
+[debug] [2026-03-03T14:44:45.750Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/slide-composer-c2d39/locations/-/functions 200
+[debug] [2026-03-03T14:44:45.751Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/slide-composer-c2d39/locations/-/functions {"functions":[{"name":"projects/slide-composer-c2d39/locations/us-central1/functions/api","buildConfig":{"build":"projects/562490877134/locations/us-central1/builds/5c1eca50-4115-495e-a81a-ed096249c98c","runtime":"nodejs20","entryPoint":"api","source":{"storageSource":{"bucket":"gcf-v2-sources-562490877134-us-central1","object":"api/function-source.zip","generation":"1772545090740844"}},"environmentVariables":{"GOOGLE_NODE_RUN_SCRIPTS":""},"dockerRepository":"projects/slide-composer-c2d39/locations/us-central1/repositories/gcf-artifacts","sourceProvenance":{"resolvedStorageSource":{"bucket":"gcf-v2-sources-562490877134-us-central1","object":"api/function-source.zip","generation":"1772545090740844"}},"dockerRegistry":"ARTIFACT_REGISTRY","serviceAccount":"projects/slide-composer-c2d39/serviceAccounts/562490877134-compute@developer.gserviceaccount.com","automaticUpdatePolicy":{}},"serviceConfig":{"service":"projects/slide-composer-c2d39/locations/us-central1/services/api","timeoutSeconds":300,"environmentVariables":{"FIREBASE_CONFIG":"{\"projectId\":\"slide-composer-c2d39\",\"storageBucket\":\"slide-composer-c2d39.firebasestorage.app\"}","GCLOUD_PROJECT":"slide-composer-c2d39","EVENTARC_CLOUD_EVENT_SOURCE":"projects/slide-composer-c2d39/locations/us-central1/services/api","FUNCTION_TARGET":"api","LOG_EXECUTION_ID":"true"},"ingressSettings":"ALLOW_ALL","uri":"https://api-2j2nh4fe2q-uc.a.run.app","serviceAccountEmail":"562490877134-compute@developer.gserviceaccount.com","availableMemory":"512Mi","allTrafficOnLatestRevision":true,"secretEnvironmentVariables":[{"key":"OPENAI_API_KEY","projectId":"slide-composer-c2d39","secret":"OPENAI_API_KEY","version":"1"},{"key":"AI_INTEGRATIONS_OPENAI_API_KEY","projectId":"slide-composer-c2d39","secret":"AI_INTEGRATIONS_OPENAI_API_KEY","version":"1"}],"revision":"api-00001-rup","maxInstanceRequestConcurrency":80,"availableCpu":"1"},"state":"ACTIVE","updateTime":"2026-03-03T13:41:58.628422623Z","labels":{"deployment-tool":"cli-firebase","firebase-functions-hash":"c88a98b8c299dd5bfbb3fff338b45607c589f67e"},"environment":"GEN_2","url":"https://us-central1-slide-composer-c2d39.cloudfunctions.net/api","createTime":"2026-03-03T13:38:10.996121148Z","satisfiesPzi":true}]}
+[debug] [2026-03-03T14:44:45.755Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:45.755Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:45.755Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions/fba82cf90af2946d updateMask=status%2Cconfig
+[debug] [2026-03-03T14:44:45.755Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions/fba82cf90af2946d {"status":"FINALIZED","config":{"rewrites":[{"glob":"/api/**","run":{"serviceId":"slide-composer-api","region":"us-central1"}},{"glob":"**","path":"/index.html"}]}}
+[debug] [2026-03-03T14:44:46.846Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions/fba82cf90af2946d 200
+[debug] [2026-03-03T14:44:46.846Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/versions/fba82cf90af2946d {"name":"projects/562490877134/sites/slide-composer-c2d39/versions/fba82cf90af2946d","status":"FINALIZED","config":{"rewrites":[{"glob":"/api/**","run":{"serviceId":"slide-composer-api","region":"us-central1"}},{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-03-03T14:44:43.110356Z","createUser":{"email":"litelearninglab@gmail.com"},"finalizeTime":"2026-03-03T14:44:47.899246Z","finalizeUser":{"email":"litelearninglab@gmail.com"}}
+[debug] [2026-03-03T14:44:46.847Z] [hosting] finalized version for slide-composer-c2d39:[object Object]
+[info] +  hosting[slide-composer-c2d39]: version finalized 
+[info] i  hosting[slide-composer-c2d39]: releasing new version... 
+[debug] [2026-03-03T14:44:46.847Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:46.848Z] Checked if tokens are valid: true, expires at: 1772552261564
+[debug] [2026-03-03T14:44:46.848Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/channels/live/releases versionName=projects%2F562490877134%2Fsites%2Fslide-composer-c2d39%2Fversions%2Ffba82cf90af2946d
+[debug] [2026-03-03T14:44:46.848Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/channels/live/releases {}
+[debug] [2026-03-03T14:44:47.720Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/channels/live/releases 200
+[debug] [2026-03-03T14:44:47.720Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/slide-composer-c2d39/channels/live/releases {"name":"projects/562490877134/sites/slide-composer-c2d39/channels/live/releases/1772549088050000","version":{"name":"projects/562490877134/sites/slide-composer-c2d39/versions/fba82cf90af2946d","status":"FINALIZED","config":{"rewrites":[{"glob":"/api/**","run":{"serviceId":"slide-composer-api","region":"us-central1"}},{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-03-03T14:44:43.110356Z","createUser":{"email":"litelearninglab@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJDMU--zgc-iv2Dr7ik_gersOLoBByvf8J3jISAEDsy3i7uWN4"},"finalizeTime":"2026-03-03T14:44:47.899246Z","finalizeUser":{"email":"litelearninglab@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJDMU--zgc-iv2Dr7ik_gersOLoBByvf8J3jISAEDsy3i7uWN4"}},"type":"DEPLOY","releaseTime":"2026-03-03T14:44:48.050Z","releaseUser":{"email":"litelearninglab@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJDMU--zgc-iv2Dr7ik_gersOLoBByvf8J3jISAEDsy3i7uWN4"}}
+[debug] [2026-03-03T14:44:47.721Z] [hosting] release: {"name":"projects/562490877134/sites/slide-composer-c2d39/channels/live/releases/1772549088050000","version":{"name":"projects/562490877134/sites/slide-composer-c2d39/versions/fba82cf90af2946d","status":"FINALIZED","config":{"rewrites":[{"glob":"/api/**","run":{"serviceId":"slide-composer-api","region":"us-central1"}},{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-03-03T14:44:43.110356Z","createUser":{"email":"litelearninglab@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJDMU--zgc-iv2Dr7ik_gersOLoBByvf8J3jISAEDsy3i7uWN4"},"finalizeTime":"2026-03-03T14:44:47.899246Z","finalizeUser":{"email":"litelearninglab@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJDMU--zgc-iv2Dr7ik_gersOLoBByvf8J3jISAEDsy3i7uWN4"}},"type":"DEPLOY","releaseTime":"2026-03-03T14:44:48.050Z","releaseUser":{"email":"litelearninglab@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJDMU--zgc-iv2Dr7ik_gersOLoBByvf8J3jISAEDsy3i7uWN4"}}
+[info] +  hosting[slide-composer-c2d39]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/slide-composer-c2d39/overview
+[info] Hosting URL: https://slide-composer-c2d39.web.app
